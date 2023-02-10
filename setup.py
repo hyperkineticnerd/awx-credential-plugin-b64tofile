@@ -15,7 +15,7 @@ setup(
     license='Apache License 2.0',
     keywords='ansible',
     url='http://github.com/hyperkineticnerd/awx-credential-plugin-b64tofile',
-    packages=['awx_credential_plugin_b64tofile'],
+    packages=['b64tofile_credential_plugin'],
     include_package_data=True,
     zip_safe=False,
     setup_requires=[],
