@@ -1,0 +1,8 @@
+= AWX Base64 to File Credential Plugin
+
+== Installation
+
+```
+~ awx-python -m pip install git+https://github.com/ansible/awx-custom-credential-plugin-example.git
+~ awx-manage setup_managed_credential_types
+```
