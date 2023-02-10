@@ -2,7 +2,12 @@
 
 == Installation
 
+Install plugin into AWX Virtual Env
 ```
-~ awx-python -m pip install git+https://github.com/hyperkineticnerd/awx-credential-plugin-b64tofile.git
-~ awx-manage setup_managed_credential_types
+awx-python -m pip install git+https://github.com/hyperkineticnerd/awx-credential-plugin-b64tofile.git
+```
+
+Register plugin with AWX
+```
+awx-manage setup_managed_credential_types
 ```
