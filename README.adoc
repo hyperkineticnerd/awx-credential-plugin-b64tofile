@@ -2,6 +2,11 @@
 
 == Installation
 
+As root, Jump into VENV
+```
+source /var/lib/awx/venv/awx/bin/activate
+```
+
 Install plugin into AWX Virtual Env
 ```
 awx-python -m pip install git+https://github.com/hyperkineticnerd/awx-credential-plugin-b64tofile.git
